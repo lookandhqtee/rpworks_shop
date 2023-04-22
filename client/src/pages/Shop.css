@@ -1,0 +1,45 @@
+/*
+.shop-image {
+    position: relative;
+    height: 100vh;
+    background: url(process.env.PUBLIC_URL + '/myImage.jpg'}) no-repeat center center fixed;
+    background-size: cover;
+  }
+*/
+  .shop-container {
+    background-image: url('./myImage.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /*
+  .shop-text {
+    text-align: center;
+    color: #fff;
+    font-size: 3rem;
+    font-family: 'Helvetica Neue', sans-serif;
+  }
+  */
+  .shop-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(77, 73, 73);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .shop-text h1 {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+  }
+  
+  .shop-text p {
+    font-size: 2rem;
+    margin-bottom: 0;
+  }
